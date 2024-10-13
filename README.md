@@ -1,4 +1,5 @@
 When tackling coding problems in an interview, a structured approach can help you think clearly and communicate effectively. Here are the key steps to follow:
+### **Practice under interview conditions**
 
 ### 1. **Understand the Problem**
    - **Read Carefully:** Make sure you understand the problem statement. Take your time to absorb the details.
