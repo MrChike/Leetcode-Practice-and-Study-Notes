@@ -38,17 +38,38 @@ class Solution(object):
         :type target: int
         :rtype: int
         """
-        # TODO: If arr_len is odd round down
-        arr_len = len(nums)/2
-        left_section = None
-        right_section = None
+        left, right = 0, len(nums) - 1
         
-        left_section = nums[:arr_len]
-        right_section = nums[arr_len:]
+        while left <= right:
+            mid = (left + right) // 2
+            if nums[mid] == target:
+                return mid
+            elif nums[mid] < target:
+                left = mid + 1
+            else:
+                right = mid - 1
+        
+        return left
 
-        if target in left_section:
-            pass
+
+# class Solution(object):
+#     def searchInsert(self, nums, target):
+#         """
+#         :type nums: List[int]
+#         :type target: int
+#         :rtype: int
+#         """
+#         # TODO: If arr_len is odd round down
+#         arr_len = len(nums)/2
+#         left_section = None
+#         right_section = None
         
-        if target in right_section:
-            pass 
+#         left_section = nums[:arr_len]
+#         right_section = nums[arr_len:]
+
+#         if target in left_section:
+#             pass
+        
+#         if target in right_section:
+#             lf 
         
