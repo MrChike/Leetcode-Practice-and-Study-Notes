@@ -31,9 +31,28 @@ class Solution(object):
 
         return num_cache + 1
 
+class Solution(object):
+    def missingNumber(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        # Get the length of the array
+        # sort the array
+        # create a range from 0 to array.length
+        # iterate through the array to find the difference
+        # if difference is is greater than 1, return the previous item + 1
+
         # Optimized Approach
-        #  n = len(nums)  # O(1) - Getting the length of the array
-        # expected_sum = n * (n + 1) // 2  # O(1) - Calculating the expected sum (constant time operation)
-        # actual_sum = sum(nums)  # O(n) - Summing up all the elements in the array
-        # return expected_sum - actual_sum  # O(1) - Subtracting two integers
+         # Step 1: Calculate the expected sum of the range [0, n]
+        array_size = len(nums)
+        expected_sum = array_size * (array_size + 1) // 2
+        
+        # Step 2: Calculate the actual sum of the given array
+        actual_sum = sum(nums)
+        
+        # Step 3: The missing number is the difference between the expected and actual sum
+        missing_number = expected_sum - actual_sum
+        
+        return missing_number
         
