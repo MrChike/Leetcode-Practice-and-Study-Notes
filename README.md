@@ -4,6 +4,33 @@ Becoming proficient at solving problems on LeetCode requires a focused and struc
 
 ---
 
+### **How to Analyze Time and Space Complexity in a Coding Interview**  
+
+#### **1. Before Coding: Discuss Complexity of Possible Approaches**  
+- Identify multiple ways to solve the problem (brute force vs. optimized).  
+- Compare time and space complexities to justify the best approach.  
+
+#### **2. While Coding: Be Mindful of Complexity**  
+- Recognize loops, recursion, and data structure operations.  
+- Avoid unnecessary computations and redundant space usage.  
+
+#### **3. After Coding: Provide a Clear Complexity Analysis**  
+- **Time Complexity:** Explain how the algorithm scales with input size.  
+- **Space Complexity:** Discuss additional memory usage (arrays, recursion depth, hash tables).  
+
+#### **How to Structure Your Complexity Explanation**  
+**Example Phrases to Use:**  
+- *"The time complexity is O(n) because we iterate through the array once."*  
+- *"The space complexity is O(1) since we use only a few extra variables."*  
+- *"Since we divide the input in half at each step, the time complexity is O(log n)."*  
+
+#### **Golden Rules**  
+✅ Compare solutions and justify choices.  
+✅ Focus on worst-case complexity.  
+✅ Keep explanations **concise and structured**.  
+
+Would you like to test this approach with a sample problem? 🚀
+
 ### **Core Focus Areas for Mastery**
 
 #### 1. **Master Essential Data Structures and Algorithms**
