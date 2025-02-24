@@ -36,23 +36,23 @@ class Solution {
 
 
 // My Solution
-// class Solution {
-//     public int maximumCount(int[] nums) {
-//         ArrayList arr0 = new ArrayList(), arr1 = new ArrayList();
+class Solution {
+    public int maximumCount(int[] nums) {
+        ArrayList arr0 = new ArrayList(), arr1 = new ArrayList();
 
-//         for (int c = 0; c < nums.length; c++) {
-//             if (nums[c] < 0) {
-//                 arr0.add(nums[c]);
-//             } else if (nums[c] == 0) {
-//                 continue;
-//             } else {
-//                 arr1.add(nums[c]);
-//             }
-//         }
+        for (int c = 0; c < nums.length; c++) {
+            if (nums[c] < 0) {
+                arr0.add(nums[c]);
+            } else if (nums[c] == 0) {
+                continue;
+            } else {
+                arr1.add(nums[c]);
+            }
+        }
 
-//         return Math.max(arr0.size(), arr1.size());
-//     }
-// }
+        return Math.max(arr0.size(), arr1.size());
+    }
+}
 
 // First, my edge case
 // Create 2 arrays that house positive & negative integers.
