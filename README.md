@@ -245,3 +245,196 @@ I see! You'd like the scenarios to be separated under **Healthy Work Environment
 | **How to Handle It**           | Propose multiple solutions and invite feedback. Be open to discussing trade-offs.          | Adapt quickly to instructions, but try to document decisions or seek clarification where needed.              | Keep clear, written records and assertively seek clarification when needed. Protect your ideas and document contributions. | Stay calm, present logical arguments, and offer solutions based on facts. Be clear about your reasoning.        | **Scenario:** You present several possible solutions and encourage feedback from the team to choose the best one. | **Scenario:** You try to clarify but are told to just follow orders without discussion. | **Scenario:** You calmly suggest alternatives to a narcissistic colleague’s idea, but they dismiss all other input. | **Scenario:** You present your solutions logically but are shut down by the manager who insists on their own approach. |
 
 This format clearly separates the scenarios for **Healthy Work Environment**, **Toxic Work Environment**, **Working with Psychopaths/Sociopaths/Narcissists**, and **Toxic Management**, giving you concrete examples for each situation.
+
+
+
+
+Absolutely! Below is a breakdown of each time complexity with its **name** and an accompanying **Python code example** to demonstrate the concept.
+
+### 1. **O(1) – Constant Time**
+   - **Meaning**: The algorithm takes a constant amount of time, regardless of the size of the input.
+   - **Example**: Accessing an element in an array by index.
+
+   ```python
+   def get_element(arr, index):
+       return arr[index]
+
+   # Example usage
+   arr = [10, 20, 30, 40, 50]
+   print(get_element(arr, 2))  # Constant time access
+   ```
+
+   - **Time Complexity**: **O(1)**
+
+   **Explanation**: Accessing an element by index in an array takes the same amount of time regardless of the array's size.
+
+---
+
+### 2. **O(log n) – Logarithmic Time**
+   - **Meaning**: The algorithm's time grows logarithmically with the input size. Typically, this happens when the problem is divided into smaller chunks in each step.
+   - **Example**: **Binary search**.
+
+   ```python
+   def binary_search(arr, target):
+       left, right = 0, len(arr) - 1
+       while left <= right:
+           mid = (left + right) // 2
+           if arr[mid] == target:
+               return mid
+           elif arr[mid] < target:
+               left = mid + 1
+           else:
+               right = mid - 1
+       return -1
+
+   # Example usage
+   arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+   print(binary_search(arr, 5))  # Logarithmic time search
+   ```
+
+   - **Time Complexity**: **O(log n)**
+
+   **Explanation**: The search space is halved in each iteration, so it takes logarithmic time to find an element.
+
+---
+
+### 3. **O(n) – Linear Time**
+   - **Meaning**: The algorithm’s time grows linearly with the input size. If you have a list of `n` items, it will take a linear amount of time to process them.
+   - **Example**: A **simple loop** that processes each element of an array once.
+
+   ```python
+   def find_max(arr):
+       max_val = arr[0]
+       for num in arr:
+           if num > max_val:
+               max_val = num
+       return max_val
+
+   # Example usage
+   arr = [1, 3, 2, 8, 4]
+   print(find_max(arr))  # Linear time to find the maximum
+   ```
+
+   - **Time Complexity**: **O(n)**
+
+   **Explanation**: You have to look at each element once to find the maximum value, which takes linear time.
+
+---
+
+### 4. **O(n log n) – Linearithmic Time**
+   - **Meaning**: The algorithm's time grows as a combination of linear and logarithmic growth. This is typically found in efficient **sorting algorithms** like **Merge Sort** or **Quick Sort**.
+   - **Example**: **Merge Sort**.
+
+   ```python
+   def merge_sort(arr):
+       if len(arr) <= 1:
+           return arr
+       mid = len(arr) // 2
+       left = merge_sort(arr[:mid])
+       right = merge_sort(arr[mid:])
+       return merge(left, right)
+
+   def merge(left, right):
+       result = []
+       i = j = 0
+       while i < len(left) and j < len(right):
+           if left[i] < right[j]:
+               result.append(left[i])
+               i += 1
+           else:
+               result.append(right[j])
+               j += 1
+       result.extend(left[i:])
+       result.extend(right[j:])
+       return result
+
+   # Example usage
+   arr = [12, 11, 13, 5, 6, 7]
+   print(merge_sort(arr))  # Linearithmic time sort
+   ```
+
+   - **Time Complexity**: **O(n log n)**
+
+   **Explanation**: The list is recursively divided in half (log n), and then the elements are merged (linear time for each level of recursion).
+
+---
+
+### 5. **O(n²) – Quadratic Time**
+   - **Meaning**: The algorithm's time grows as the square of the input size. Typically, this occurs in algorithms with **nested loops**.
+   - **Example**: **Bubble Sort**.
+
+   ```python
+   def bubble_sort(arr):
+       n = len(arr)
+       for i in range(n):
+           for j in range(0, n-i-1):
+               if arr[j] > arr[j+1]:
+                   arr[j], arr[j+1] = arr[j+1], arr[j]
+       return arr
+
+   # Example usage
+   arr = [64, 34, 25, 12, 22, 11, 90]
+   print(bubble_sort(arr))  # Quadratic time sorting
+   ```
+
+   - **Time Complexity**: **O(n²)**
+
+   **Explanation**: The algorithm uses two nested loops, where each loop iterates over the entire array, leading to quadratic time complexity.
+
+---
+
+### 6. **O(2^n) – Exponential Time**
+   - **Meaning**: The algorithm's time doubles with each additional input. This growth rate is **very slow** and typically impractical for larger inputs.
+   - **Example**: Solving the **Fibonacci sequence** recursively.
+
+   ```python
+   def fibonacci(n):
+       if n <= 1:
+           return n
+       return fibonacci(n-1) + fibonacci(n-2)
+
+   # Example usage
+   print(fibonacci(10))  # Exponential time for recursive Fibonacci
+   ```
+
+   - **Time Complexity**: **O(2^n)**
+
+   **Explanation**: The function calls itself twice at each level, leading to an exponential number of calls as `n` increases.
+
+---
+
+### 7. **O(n!) – Factorial Time**
+   - **Meaning**: The algorithm’s time grows as the factorial of the input size. This is **extremely slow** and is typically seen in problems like generating all permutations.
+   - **Example**: Generating **permutations** of a string.
+
+   ```python
+   from itertools import permutations
+
+   def generate_permutations(s):
+       return list(permutations(s))
+
+   # Example usage
+   print(generate_permutations('abc'))  # Factorial time generation of permutations
+   ```
+
+   - **Time Complexity**: **O(n!)**
+
+   **Explanation**: Generating all permutations of a string of length `n` results in `n!` possible combinations, which grows very quickly as `n` increases.
+
+---
+
+### **Summary Table with Code Examples:**
+
+| **Complexity**  | **Name to Commit**      | **Meaning**                               | **Python Code Example** |
+|-----------------|-------------------------|-------------------------------------------|-------------------------|
+| **O(1)**        | Constant Time           | Time does not depend on input size.       | `arr[index]`            |
+| **O(log n)**    | Logarithmic Time        | Time grows logarithmically (binary search).| `binary_search(arr)`    |
+| **O(n)**        | Linear Time             | Time grows linearly with input size.      | `find_max(arr)`         |
+| **O(n log n)**  | Linearithmic Time       | Combination of linear and logarithmic growth (sorting). | `merge_sort(arr)`        |
+| **O(n²)**       | Quadratic Time          | Time grows quadratically (nested loops).  | `bubble_sort(arr)`      |
+| **O(2^n)**      | Exponential Time        | Time doubles with each additional input.  | `fibonacci(n)`          |
+| **O(n!)**       | Factorial Time          | Time grows as factorial of input size.    | `generate_permutations('abc')` |
+
+---
+
+With these **Python examples** and clear **names** for each time complexity, you can easily demonstrate these concepts in any interview or technical discussion.
