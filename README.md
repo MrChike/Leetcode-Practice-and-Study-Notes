@@ -1,6 +1,58 @@
 ### **Long-Term Strategy to Excel at LeetCode**
+---
+### **2. Prioritize Problem-Solving Categories**
+
+These are the areas most commonly tested on LeetCode and in interviews. Practice problems in these categories consistently:
+
+#### **1. Arrays & Strings** (Most Common)
+
+- Common patterns: Sliding window, two pointers, prefix sum.
+- Solve problems like: Subarray sum, longest substring, palindrome checks.
+- Practice: Focus on **medium** difficulty problems and build up to **hard**.
+
+#### **2. Dynamic Programming** (High Impact)
+
+- Mastering DP is essential for optimizing problems and solving complex algorithmic challenges.
+- Focus on: Knapsack, longest increasing subsequence, coin change.
+- Practice: Start with **easy** and **medium** problems, then progress to **hard**.
+
+#### **3. Trees & Graphs** (Critical for Interview Success)
+
+- Practice: Tree traversal (DFS, BFS), lowest common ancestor, pathfinding, connected components.
+- Focus on both **binary trees** and **general graphs**.
+- Master DFS/BFS traversal techniques, cycle detection, and shortest path algorithms.
+
+#### **4. Sorting & Searching** (Key for Efficiency)
+
+- Focus on sorting algorithms (quicksort, mergesort) and binary search (for sorted arrays, rotated arrays).
+- Solve problems like: Searching in a 2D matrix, kth largest element, rotated arrays.
+
+#### **5. Two Pointers & Sliding Window** (Optimal for Array Problems)
+
+- Solve problems like: Removing duplicates, partitioning arrays, finding the longest substring without repeating characters.
+- Master these techniques as they often lead to efficient O(n) solutions.
 
 ---
+
+### **3. Advanced Topics for Depth**
+
+Once you've mastered the foundational concepts, focus on these advanced topics to further hone your skills:
+
+#### **1. Backtracking**
+
+- Problems like N-Queens, Sudoku Solver, and combinatorial problems.
+- Learn when to apply recursion with backtracking for problems requiring exhaustive search.
+
+#### **2. Graph Algorithms (Advanced)**
+
+- Once you master BFS/DFS, explore more advanced graph algorithms like Dijkstra's algorithm, Floyd-Warshall, and topological sorting.
+
+#### **3. Advanced Data Structures**
+
+- **Tries**: For solving string-related problems efficiently.
+- **Heaps/Priority Queues**: For problems involving the k-th largest element, merging sorted lists, or solving median-related problems.
+- **Segment Trees/Binary Indexed Trees**: Essential for solving range query problems, but can be tackled later in your practice.
+
 
 ### **How to Analyze Time and Space Complexity in a Coding Interview**  
 
@@ -61,58 +113,6 @@ Focus on data structures and algorithms that are frequently tested in LeetCode p
 
 ---
 
-### **2. Prioritize Problem-Solving Categories**
-
-These are the areas most commonly tested on LeetCode and in interviews. Practice problems in these categories consistently:
-
-#### **1. Arrays & Strings** (Most Common)
-
-- Common patterns: Sliding window, two pointers, prefix sum.
-- Solve problems like: Subarray sum, longest substring, palindrome checks.
-- Practice: Focus on **medium** difficulty problems and build up to **hard**.
-
-#### **2. Dynamic Programming** (High Impact)
-
-- Mastering DP is essential for optimizing problems and solving complex algorithmic challenges.
-- Focus on: Knapsack, longest increasing subsequence, coin change.
-- Practice: Start with **easy** and **medium** problems, then progress to **hard**.
-
-#### **3. Trees & Graphs** (Critical for Interview Success)
-
-- Practice: Tree traversal (DFS, BFS), lowest common ancestor, pathfinding, connected components.
-- Focus on both **binary trees** and **general graphs**.
-- Master DFS/BFS traversal techniques, cycle detection, and shortest path algorithms.
-
-#### **4. Sorting & Searching** (Key for Efficiency)
-
-- Focus on sorting algorithms (quicksort, mergesort) and binary search (for sorted arrays, rotated arrays).
-- Solve problems like: Searching in a 2D matrix, kth largest element, rotated arrays.
-
-#### **5. Two Pointers & Sliding Window** (Optimal for Array Problems)
-
-- Solve problems like: Removing duplicates, partitioning arrays, finding the longest substring without repeating characters.
-- Master these techniques as they often lead to efficient O(n) solutions.
-
----
-
-### **3. Advanced Topics for Depth**
-
-Once you've mastered the foundational concepts, focus on these advanced topics to further hone your skills:
-
-#### **1. Backtracking**
-
-- Problems like N-Queens, Sudoku Solver, and combinatorial problems.
-- Learn when to apply recursion with backtracking for problems requiring exhaustive search.
-
-#### **2. Graph Algorithms (Advanced)**
-
-- Once you master BFS/DFS, explore more advanced graph algorithms like Dijkstra's algorithm, Floyd-Warshall, and topological sorting.
-
-#### **3. Advanced Data Structures**
-
-- **Tries**: For solving string-related problems efficiently.
-- **Heaps/Priority Queues**: For problems involving the k-th largest element, merging sorted lists, or solving median-related problems.
-- **Segment Trees/Binary Indexed Trees**: Essential for solving range query problems, but can be tackled later in your practice.
 
 ---
 
