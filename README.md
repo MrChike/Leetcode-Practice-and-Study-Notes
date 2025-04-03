@@ -1,10 +1,10 @@
-### **Long-Term Strategy to Excel at LeetCode**
+### **Long Term Strategy to excel at LeetCode**
 ---
 The first step would be to place structure on how we plan to get good at solving problems on Leetcode. So we would be using the divide-and-conquer strategy on this Guys!
 So we start by figuring out the comomonly tested questions on Leetcode which is most likely to pop up in interviews.
 
 
-| **Data Structure**       | **Associated Algorithms (Most Likely to come accross)**                                                                                                         |
+| **Data Structure**       | **Associated Algorithms (Most Likely to come across)**                                                                                                         |
 |--------------------------|------------------------------------------------------------------------------------------------------------------------|
 | **Array**                | Binary Search, Two Pointer Technique, Sliding Window, Sorting Algorithms (QuickSort, MergeSort, HeapSort), Prefix Sum |
 | **Linked List**          | Reversal of Linked List, Cycle Detection (Floyd’s Tortoise and Hare), Merging Sorted Lists, Intersection of Two Linked Lists, Find Nth Node from the End |
