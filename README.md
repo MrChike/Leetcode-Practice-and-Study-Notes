@@ -1,6 +1,4 @@
-### **Comprehensive Strategy to Excel at LeetCode**
-
-Becoming proficient at solving problems on LeetCode requires a focused and structured approach. This strategy will help you master the essential topics, practice efficiently, and ultimately succeed in technical interviews.
+### **Long-Term Strategy to Excel at LeetCode**
 
 ---
 
