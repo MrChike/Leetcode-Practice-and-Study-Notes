@@ -3,6 +3,26 @@
 The first step would be to place structure on how we plan to get good at solving problems on Leetcode. So we would be using the divide-and-conquer strategy on this Guys!
 So we start by figuring out the comomonly tested questions on Leetcode which is most likely to pop up in interviews.
 
+Got it! Here's the updated table with the **associated algorithms placed horizontally** for each data structure:
+
+| **Data Structure**       | **Algorithms**                                                                                                         |
+|--------------------------|------------------------------------------------------------------------------------------------------------------------|
+| **Array**                | Binary Search, Two Pointer Technique, Sliding Window, Sorting Algorithms (QuickSort, MergeSort, HeapSort), Prefix Sum |
+| **Linked List**          | Reversal of Linked List, Cycle Detection (Floyd’s Tortoise and Hare), Merging Sorted Lists, Intersection of Two Linked Lists, Find Nth Node from the End |
+| **Stack**                | Balanced Parentheses, Next Greater Element, Valid Parentheses, Expression Evaluation (Infix to Postfix conversion, Postfix Evaluation) |
+| **Queue**                | Breadth-First Search (BFS), Sliding Window Maximum, Level Order Traversal (Binary Tree), Queue Simulation Problems (e.g., Circular Queue, LRU Cache Design) |
+| **Hash Map (Hash Table)**| Two Sum Problem, Frequency Counting, Group Anagrams, Longest Substring Without Repeating Characters                   |
+| **Binary Tree**          | Depth-First Search (DFS): In-order, Pre-order, Post-order Traversals, Breadth-First Search (BFS): Level Order Traversal, Lowest Common Ancestor (LCA), Binary Search Tree (BST) Operations (Insertion, Deletion, Search), Max Depth of Binary Tree |
+| **Heap (Min-Heap/Max-Heap)** | Heap Sort, Priority Queue, Kth Largest/Smallest Element, Dijkstra’s Algorithm                                        |
+| **Trie**                 | Prefix Matching/Search, Autocomplete System, Word Search (Dictionary Problems), Longest Common Prefix                |
+| **Graph**                | Breadth-First Search (BFS), Depth-First Search (DFS), Dijkstra’s Algorithm, Topological Sort, Bellman-Ford Algorithm, Floyd-Warshall Algorithm, Kruskal’s Algorithm (Minimum Spanning Tree), Prim’s Algorithm (Minimum Spanning Tree) |
+| **Dynamic Programming (DP)** | Knapsack Problem, Longest Increasing Subsequence (LIS), Longest Common Subsequence (LCS), Coin Change Problem, Fibonacci Sequence, Matrix Chain Multiplication, Edit Distance |
+| **Disjoint Set (Union-Find)** | Union-Find Operations (Union, Find), Kruskal’s Algorithm (Minimum Spanning Tree), Cycle Detection in Graphs  |
+| **Segment Tree**         | Range Sum Query, Range Minimum Query (RMQ), Interval Updates                                                          |
+| **Binary Indexed Tree (Fenwick Tree)** | Prefix Sum Queries, Range Sum Query                                                                 |
+
+This version of the table places the associated algorithms horizontally for each data structure, making it easier to see all the algorithms related to a specific data structure in one row.
+
 #### **1. Arrays | Strings | Hash Map** (Most Common)
 
 - Common patterns: Sliding window, two pointers, prefix sum.
