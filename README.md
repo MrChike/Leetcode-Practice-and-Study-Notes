@@ -20,37 +20,38 @@ So we start by figuring out the comomonly tested questions on Leetcode which is 
 | **Segment Tree**         | Range Sum Query, Range Minimum Query (RMQ), Interval Updates                                                          |
 | **Binary Indexed Tree (Fenwick Tree)** | Prefix Sum Queries, Range Sum Query                                                                 |
 
-This version of the table places the associated algorithms horizontally for each data structure, making it easier to see all the algorithms related to a specific data structure in one row.
+Now that we have a table top view let's go into the details.....
 
-#### **1. Arrays | Strings | Hash Map** (Most Common)
+**1. Arrays | Strings | Hash Map (Most Common)**
+Common patterns: Sliding window, two pointers, prefix sum.
+Solve problems like: Subarray sum, longest substring, palindrome checks.
+Practice: Focus on medium difficulty problems and build up to hard.
 
-- Common patterns: Sliding window, two pointers, prefix sum.
-- Solve problems like: Subarray sum, longest substring, palindrome checks.
-- Practice: Focus on **medium** difficulty problems and build up to **hard**.
+**2. Stacks, Queues & Linked Lists (Fundamental Data Structures)**
+Understand their structure, operations (push/pop, enqueue/dequeue, insert/delete), and use cases.
+Common problems:
 
-#### **2. Dynamic Programming** (High Impact)
+* **Stacks**: Valid parentheses, largest rectangle in histogram, next greater element.
+* **Queues**: Sliding window maximum, BFS using queue, recent counter.
+* **Linked Lists**: Reverse a linked list, detect cycle, merge two sorted lists, intersection of linked lists.
+  Practice: Focus on pointer manipulation, recursive/iterative approaches, and edge cases (null nodes, loops).
 
-- Mastering DP is essential for optimizing problems and solving complex algorithmic challenges.
-- Focus on: Knapsack, longest increasing subsequence, coin change.
-- Practice: Start with **easy** and **medium** problems, then progress to **hard**.
+**3. Dynamic Programming (High Impact)**
+Mastering DP is essential for optimizing problems and solving complex algorithmic challenges.
+Focus on: Knapsack, longest increasing subsequence, coin change.
+Practice: Start with easy and medium problems, then progress to hard.
 
-#### **3. Trees & Graphs** (Critical for Interview Success)
+**4. Trees & Graphs (Critical for Interview Success)**
+Practice: Tree traversal (DFS, BFS), lowest common ancestor, pathfinding, connected components.
+Focus on both binary trees and general graphs.
+Master DFS/BFS traversal techniques, cycle detection, and shortest path algorithms.
 
-- Practice: Tree traversal (DFS, BFS), lowest common ancestor, pathfinding, connected components.
-- Focus on both **binary trees** and **general graphs**.
-- Master DFS/BFS traversal techniques, cycle detection, and shortest path algorithms.
+**5. Sorting & Searching (Key for Efficiency)**
+Focus on sorting algorithms (quicksort, mergesort) and binary search (for sorted arrays, rotated arrays).
+Solve problems like: Searching in a 2D matrix, kth largest element, rotated arrays.
 
-#### **4. Sorting & Searching** (Key for Efficiency)
 
-- Focus on sorting algorithms (quicksort, mergesort) and binary search (for sorted arrays, rotated arrays).
-- Solve problems like: Searching in a 2D matrix, kth largest element, rotated arrays.
 
-#### **5. Two Pointers & Sliding Window** (Optimal for Array Problems)
-
-- Solve problems like: Removing duplicates, partitioning arrays, finding the longest substring without repeating characters.
-- Master these techniques as they often lead to efficient O(n) solutions.
-
----
 
 ### **3. Advanced Topics for Depth**
 
