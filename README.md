@@ -51,9 +51,7 @@ Focus on sorting algorithms (quicksort, mergesort) and binary search (for sorted
 Solve problems like: Searching in a 2D matrix, kth largest element, rotated arrays.
 
 
-
-
-### **3. Advanced Topics for Depth**
+### **Advanced Topics for Depth**
 
 Once you've mastered the foundational concepts, focus on these advanced topics to further hone your skills:
 
@@ -71,6 +69,61 @@ Once you've mastered the foundational concepts, focus on these advanced topics t
 - **Tries**: For solving string-related problems efficiently.
 - **Heaps/Priority Queues**: For problems involving the k-th largest element, merging sorted lists, or solving median-related problems.
 - **Segment Trees/Binary Indexed Trees**: Essential for solving range query problems, but can be tackled later in your practice.
+
+By following this structured, focused strategy, you'll significantly improve your problem-solving skills and be well-equipped to tackle LeetCode problems with confidence
+-----------------------------------------------------------------------------------------
+
+When tackling coding problems in an interview, a structured approach can help you think clearly and communicate effectively. Here are the key steps to follow:
+
+### **Practice under interview conditions**
+
+### 1. **Understand the Problem**
+
+- **Read Carefully:** Make sure you understand the problem statement. Take your time to absorb the details.
+- **Ask Clarifying Questions:** If something is unclear, ask the interviewer for clarification. This shows engagement and helps avoid assumptions.
+
+### 2. **Identify Inputs and Outputs**
+
+- **Inputs:** Define what inputs your function will receive (data types, constraints).
+- **Outputs:** Clarify what the expected outputs should be.
+
+### 3. **Think Aloud**
+
+- **Communicate Your Thought Process:** Share your understanding of the problem with the interviewer. This helps them see your approach and reasoning.
+
+### 4. **Outline a Plan**
+
+- **Discuss Possible Approaches:** Talk through different ways to solve the problem, including brute-force methods and more optimized solutions.
+- **Choose an Approach:** Select the best method based on efficiency and clarity.
+
+### 5. **Write Pseudocode**
+
+- **Outline Your Solution:** Write pseudocode or a high-level outline of your algorithm. This helps organize your thoughts before coding.
+
+### 6. **Code the Solution**
+
+- **Implement the Algorithm:** Write the actual code based on your pseudocode. Keep it clean and organized.
+- **Handle Edge Cases:** Consider and address any edge cases or exceptions in your implementation.
+
+### 7. **Test Your Solution**
+
+- **Run Through Test Cases:** Use both provided and custom test cases to validate your solution.
+- **Check for Edge Cases:** Ensure your code handles edge cases, such as empty inputs or large values.
+
+### 8. **Optimize (if necessary)**
+
+- **Analyze Complexity:** Discuss the time and space complexity of your solution. Consider whether it can be optimized further.
+
+### 9. **Review Your Code**
+
+- **Check for Errors:** Quickly review your code for any syntax errors or logical mistakes.
+- **Explain Your Code:** Be prepared to explain how your code works, especially if asked to clarify or walk through specific parts.
+
+### 10. **Be Open to Feedback**
+
+- **Receive Guidance:** If the interviewer suggests changes or hints at improvements, be open to feedback and willing to adjust your approach.
+
+By following these steps, you can structure your problem-solving process and demonstrate your thought process clearly, making a positive impression on your interviewer.
 
 
 ### **How to Analyze Time and Space Complexity in a Coding Interview**  
@@ -187,61 +240,6 @@ To become very good at LeetCode:
 - **Consistent practice** is essential — aim for daily problem-solving, mock interviews, and timed contests.
   
 This approach ensures you're well-prepared for LeetCode, technical interviews, and beyond, with an emphasis on efficiency, problem-solving patterns, and understanding the underlying algorithms.
-
-By following this structured, focused strategy, you'll significantly improve your problem-solving skills and be well-equipped to tackle LeetCode problems with confidence
------------------------------------------------------------------------------------------
-
-When tackling coding problems in an interview, a structured approach can help you think clearly and communicate effectively. Here are the key steps to follow:
-
-### **Practice under interview conditions**
-
-### 1. **Understand the Problem**
-
-- **Read Carefully:** Make sure you understand the problem statement. Take your time to absorb the details.
-- **Ask Clarifying Questions:** If something is unclear, ask the interviewer for clarification. This shows engagement and helps avoid assumptions.
-
-### 2. **Identify Inputs and Outputs**
-
-- **Inputs:** Define what inputs your function will receive (data types, constraints).
-- **Outputs:** Clarify what the expected outputs should be.
-
-### 3. **Think Aloud**
-
-- **Communicate Your Thought Process:** Share your understanding of the problem with the interviewer. This helps them see your approach and reasoning.
-
-### 4. **Outline a Plan**
-
-- **Discuss Possible Approaches:** Talk through different ways to solve the problem, including brute-force methods and more optimized solutions.
-- **Choose an Approach:** Select the best method based on efficiency and clarity.
-
-### 5. **Write Pseudocode**
-
-- **Outline Your Solution:** Write pseudocode or a high-level outline of your algorithm. This helps organize your thoughts before coding.
-
-### 6. **Code the Solution**
-
-- **Implement the Algorithm:** Write the actual code based on your pseudocode. Keep it clean and organized.
-- **Handle Edge Cases:** Consider and address any edge cases or exceptions in your implementation.
-
-### 7. **Test Your Solution**
-
-- **Run Through Test Cases:** Use both provided and custom test cases to validate your solution.
-- **Check for Edge Cases:** Ensure your code handles edge cases, such as empty inputs or large values.
-
-### 8. **Optimize (if necessary)**
-
-- **Analyze Complexity:** Discuss the time and space complexity of your solution. Consider whether it can be optimized further.
-
-### 9. **Review Your Code**
-
-- **Check for Errors:** Quickly review your code for any syntax errors or logical mistakes.
-- **Explain Your Code:** Be prepared to explain how your code works, especially if asked to clarify or walk through specific parts.
-
-### 10. **Be Open to Feedback**
-
-- **Receive Guidance:** If the interviewer suggests changes or hints at improvements, be open to feedback and willing to adjust your approach.
-
-By following these steps, you can structure your problem-solving process and demonstrate your thought process clearly, making a positive impression on your interviewer.
 
 
 I see! You'd like the scenarios to be separated under **Healthy Work Environment**, **Toxic Work Environment**, **Working with Psychopaths, Sociopaths, or Narcissists**, and **Toxic Management** as distinct headings. Here's the revised table with the **Scenario** heading broken out into **Healthy Work Environment Scenario**, **Toxic Work Environment Scenario**, **Psychopaths/Sociopaths/Narcissists Scenario**, and **Toxic Management Scenario**:
