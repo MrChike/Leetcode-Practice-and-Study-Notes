@@ -4,10 +4,6 @@ To excel at LeetCode and prepare for technical interviews, we’ll use a **struc
 
 ---
 
-Perfect — you want to maintain the **"Rest, Plan, Strategize"** model every few months to avoid burnout and ensure reflection. Here's the **final, clean version** of your 12-month DSA study strategy with built-in rest periods, correctly grouped topics, and a logical learning curve.
-
----
-
 ## ✅ **Final DSA Master Plan (with Strategic Rest Periods)**
 
 ---
