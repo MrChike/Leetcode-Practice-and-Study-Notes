@@ -3,6 +3,11 @@
 The first step would be to place structure on how we plan to get good at solving problems on Leetcode. So we would be using the divide-and-conquer strategy on this Guys!
 So we start by figuring out the comomonly tested questions on Leetcode which is most likely to pop up in interviews.
 
+Array → String → Linked List → Stack → Queue → Hash Table → Sorting → 
+Two Pointers → Sliding Window → Binary Search → Recursion → Greedy → 
+DFS/BFS → Tree → Graph → Heap → Dynamic Programming → Backtracking
+
+
 
 | **Data Structure**       | **Associated Algorithms (Most Likely to come across)**                                                                                                         |
 |--------------------------|------------------------------------------------------------------------------------------------------------------------|
